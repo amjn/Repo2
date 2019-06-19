@@ -3,9 +3,6 @@ resources:
     - pipeline: P2
       source: jainamanjain.Repo1
 
-trigger:
-- master
-
 stages:
  - stage: Download_A1_1_artifact
    jobs:
