@@ -12,4 +12,3 @@ stages:
      - job: J4
        steps:
          - download: P2
-           artifact: 'A1.1'
