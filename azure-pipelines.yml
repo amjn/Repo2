@@ -7,5 +7,7 @@ stages:
  - stage: Download_A1_1_artifact
    jobs:
      - job: J4
+       pool: 
+        name: default
        steps:
          - download: P2
