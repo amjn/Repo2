@@ -7,7 +7,7 @@ trigger:
 - master
 
 stages:
- - stage: Download_A1.1_artifact
+ - stage: Download_A1_1_artifact
    jobs:
      - job: J4
        steps:
