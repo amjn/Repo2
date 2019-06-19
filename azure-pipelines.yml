@@ -11,3 +11,4 @@ stages:
         name: default
        steps:
          - download: P2
+           artifact: A1.1
