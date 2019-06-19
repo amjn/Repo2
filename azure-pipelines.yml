@@ -1,0 +1,15 @@
+resources:
+  pipelines:
+    - pipeline: P2
+      source: jainamanjain.Repo1
+
+trigger:
+- master
+
+stages:
+ - stage: Download_A1.1_artifact
+   jobs:
+     - job: J4
+       steps:
+         - download: P2
+           artifact: 'A1.1'
