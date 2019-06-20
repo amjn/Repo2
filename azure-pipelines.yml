@@ -1,6 +1,6 @@
 resources:
   pipelines:
-    - pipeline: P2
+    - pipeline: P1
       source: jainamanjain.Repo1
 
 stages:
@@ -10,5 +10,5 @@ stages:
        pool: 
         name: default
        steps:
-         - download: P2
+         - download: P1
            artifact: A1.1
