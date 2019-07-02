@@ -12,3 +12,5 @@ stages:
        steps:
          - download: P1
            artifact: A1.1
+         - powershell: |
+            ls $(Pipeline.WorkingDirectory)/
